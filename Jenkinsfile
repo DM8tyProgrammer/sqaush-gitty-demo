@@ -11,6 +11,10 @@ pipeline {
 	stage('upload') {
 	   echo 'upload'
 	}
+
+        stage('test') {
+          echo 'test'
+        }
   }
 
 }
