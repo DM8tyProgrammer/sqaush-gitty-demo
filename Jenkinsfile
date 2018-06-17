@@ -5,11 +5,11 @@ pipeline {
 
   stages {
 	stage('build') {
-            // added stage build
+            echo 'build'
          }
 
 	stage('upload') {
-	
+	   echo 'upload'
 	}
   }
 
