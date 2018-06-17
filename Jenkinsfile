@@ -17,7 +17,6 @@ pipeline {
         }
 	stage('deploy') {
 	 echo 'deploy'
-         echo 'bug'
         }
   }
 
