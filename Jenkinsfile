@@ -15,6 +15,10 @@ pipeline {
         stage('test') {
           echo 'test'
         }
+	stage('deploy') {
+	 echo 'bug'
+	 echo 'deploy''
+        }
   }
 
 }
